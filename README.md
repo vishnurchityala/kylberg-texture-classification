@@ -2,6 +2,9 @@
 
 This project is an academic work for Bennett University under course CSET-344 (Image and Video Processing), this project aims to implement all the topics taught in the course in action for a task.
 
+**Objective:**  
+To apply and visualize various image processing filters and techniques from the DIP syllabus — and use the extracted texture features to train a **Support Vector Machine (SVM)** classifier.
+
 ## Topics Covered (as per Syllabus)
 
 ### **Module 1 – Spatial Domain Processing**
