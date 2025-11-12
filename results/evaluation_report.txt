@@ -1,0 +1,68 @@
+Overall Accuracy: 96.38%
+
+Classification Report:
+                                precision    recall  f1-score   support
+
+    blanket1-without-rotations       1.00      0.99      0.99       160
+    blanket2-without-rotations       1.00      1.00      1.00       160
+     canvas1-without-rotations       1.00      0.99      1.00       160
+    ceiling1-without-rotations       1.00      1.00      1.00       160
+    ceiling2-without-rotations       1.00      1.00      1.00       160
+    cushion1-without-rotations       1.00      1.00      1.00       160
+      floor1-without-rotations       1.00      0.99      1.00       160
+      floor2-without-rotations       0.86      0.94      0.90       160
+      grass1-without-rotations       0.92      0.98      0.95       160
+    lentils1-without-rotations       0.97      0.99      0.98       160
+   linseeds1-without-rotations       0.90      0.96      0.93       160
+    oatmeal1-without-rotations       0.94      0.96      0.95       160
+ pearlsugar1-without-rotations       0.91      0.93      0.92       160
+       rice1-without-rotations       1.00      0.86      0.93       160
+       rice2-without-rotations       0.89      0.96      0.92       160
+        rug1-without-rotations       0.97      0.87      0.92       160
+       sand1-without-rotations       0.88      0.91      0.89       160
+      scarf1-without-rotations       1.00      1.00      1.00       160
+      scarf2-without-rotations       1.00      1.00      1.00       160
+     screen1-without-rotations       1.00      1.00      1.00       160
+       seat1-without-rotations       1.00      1.00      1.00       160
+       seat2-without-rotations       1.00      1.00      1.00       160
+sesameseeds1-without-rotations       1.00      0.97      0.98       160
+      stone1-without-rotations       0.98      1.00      0.99       160
+      stone2-without-rotations       0.95      0.99      0.97       160
+      stone3-without-rotations       0.87      0.74      0.80       160
+  stoneslab1-without-rotations       0.97      0.95      0.96       160
+       wall1-without-rotations       1.00      1.00      1.00       160
+
+                      accuracy                           0.96      4480
+                     macro avg       0.96      0.96      0.96      4480
+                  weighted avg       0.96      0.96      0.96      4480
+
+
+Confusion Matrix:
+158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0
+0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 159 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 159 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 150 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 8 0 0
+0 0 0 0 0 0 0 0 157 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 159 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 0 153 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 1 1 154 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 2 10 0 148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 3 0 138 19 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 1 0 5 0 0 154 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 11 1 3 1 4 0 0 139 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 145 0 0 0 0 0 0 1 0 9 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 0 155 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 159 0 1 0
+0 0 0 0 0 0 0 18 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 3 2 119 1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 1 152 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160
